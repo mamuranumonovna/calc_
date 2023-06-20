@@ -11,6 +11,7 @@ array.map((item) => {
             case "C":
                 return freespace.textContent = "";
                 break;
+
             case "=":
                 try {
                     return freespace.textContent = eval(freespace.textContent)
